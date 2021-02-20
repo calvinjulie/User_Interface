@@ -13,8 +13,10 @@ div.pagetitle {
 	position:absolute;
 	left: 800px;
 	top: 225px;
-	font-family:Impact, Charcoal, serif;
+	font-family:Helvetica;
+	font-weight: bold;
 	font-size: 3.5em; 
+	color:rgb(0, 0, 0)
 }
 /* Reference font size and positioning from w3schools.com/css/ */
 
@@ -30,28 +32,28 @@ div.profile {
 	position: absolute;
 	left: 250px;
 	top: 650px;
-	font-family:"Times New Roman", Times, serif;
-	font-size: 1.5em;
-	color: #800080;
-	text-decoration: underline;
-	width: 100px;
+	font-family: Helvetica;
+	font-size: 32px;
+	color: rgb(35, 92, 35);
+	font-weight: bold; 
 }
 div.profile_text {
 	position:absolute;
 	left: 250px;
 	top:700px;
-	font-family: "Times New Roman", Times, sans-serif;
-	font-size: 1em;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
 	width: 450px;
+	line-height: 26px;
 }
 div.work_history {
 	position:absolute;
 	left:800px;
 	top:650px;
-	font-family:"Times New Roman", Times, serif;
+	font-family:Helvetica;
 	font-size:1.5em;
-	color: #800080;
-	text-decoration: underline;
+	color: rgb(67, 71, 67);
+	font-weight:bold;
 }
 
 img.Trent {
@@ -80,6 +82,7 @@ div.maintenance {
 	font-family:"Times New Roman", Times, sans-serif;
 	font-size:1em;
 	width: 450px;
+	line-height: 25px;
 }
 div.Secondwork {
 	position:absolute;
@@ -96,15 +99,17 @@ div.proshop {
 	font-family:"Times New Roman", Times, sans-serif;
 	font-size:1em;
 	width:450px;
+	line-height: 25px;
 }
 div.Education {
 	position:absolute;
 	left:800px;
 	top:900px;
-	font-family:"Times New Roman", Times, serif;
+	font-family:Helvetica;
 	font-size:1.5em;
-	color: #800080;
-	text-decoration: underline;
+	color: rgb(67, 71, 67);
+	font-weight: bold;
+	
 }
 div.TrentU {
 	position:absolute;
@@ -121,11 +126,12 @@ div.TrentText {
 	font-family:"Times New Roman", Times, sans-serif;
 	font-size:1em;
 	width:450px;
+	line-height: 25px;
 }
 div.FlemingC {
 	position:absolute;
 	left:800px;
-	top:1000px;
+	top:1025px;
 	font-family:"Times New Roman", Times, sans-serif;
 	font-size:1.2em;
 	width:150px;
@@ -133,24 +139,25 @@ div.FlemingC {
 div.FlemingText {
 	position:absolute;
 	left:950px;
-	top:1000px;
+	top:1025px;
 	font-family:"Times New Roman", Times, sans-serif;
 	font-size:1em;
 	width:450px;
+	line-height: 25px;
 }
 div.References {
 	position:absolute;
 	left: 250px;
-	top:950px;
-	font-family:"Times New Roman", Times, serif;
-	font-size:1.5em;
-	color: #800080;
-	text-decoration: underline;
+	top:1020px;
+	font-family:Helvetica;
+	font-size:20px;
+	color: rgb(35, 92, 35);
+	font-weight: bold;
 }
 div.ReferencesText {
 	position:absolute;
 	left:250px;
-	top:1000px;
+	top:1055px;
 	font-family:"Times New Roman",Times, sans-serif;
 	font-size:1em;
 	width:450px;
