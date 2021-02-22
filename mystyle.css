@@ -18,7 +18,7 @@ h1.one {
 }
 /* Reference font size and positioning from w3schools.com/css/ */
 
-h2 {
+h2.one {
 	position: absolute;
 	left: 800px;
 	top: 290px;
@@ -31,7 +31,7 @@ h1.two {
 	font-size: 2.5em;
 }
 
-h4 { 
+h2.two { 
 	font-family: Helvetica;
 	font-size: 1.5em;
 }
